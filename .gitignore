@@ -1,0 +1,8 @@
+*.egg-info
+test.py
+wandb/
+runs/
+.vscode
+*.zip
+*.pth
+*.jpg
