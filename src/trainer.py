@@ -12,7 +12,6 @@ from src.dataset import CustomDataset
 from src.utils import get_config
 from src.train import train, test
 
-os.environ["WANDB_NOTEBOOK_NAME"] = "ncr"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"device: {DEVICE}")
 # configs
